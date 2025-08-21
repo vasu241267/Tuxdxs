@@ -26,13 +26,12 @@ CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/HunterXSigma")
 Support = os.getenv("Support", "https://t.me/callmesigmax")
 # Required channels for force join
 REQUIRED_CHANNELS = [
-    "@HunterXSigma",
+    "@Acchubotp",
     #"@+UyoEvMS5XAxkNTc0",
     #"@+2P-OUmWo1hc0NmNh",
    # "@fasttech3",
-    "@h2icoder",
-    "@freeotpss",
-    "@tips_tricks_shop",
+    "@DDxOTP",
+    
     #"@+pG-1Ka8IixthMzNk"
 ]
 #channel2 = [ "@+F4Md7IotaqcxN2I9" ]
@@ -80,11 +79,11 @@ def get_join_channel_message():
        # keyboard.append([InlineKeyboardButton(f"Join {channel2}", url=url)])
     keyboard.append([InlineKeyboardButton("✅ Check Membership", callback_data="check_membership")])
     return (
-        "Join Backup Channel First:- https://t.me/+F4Md7IotaqcxN2I9\n\n"
+        "Join Backup Channel First:- https://t.me/Acchubotp\n\n"
         "⚠️ <b>Please join all required channels to use this bot!</b>\n\n"
         "Click the buttons below to join the channels, then press 'Check Membership'.\n"
         "━━━━━━━━━━━━━━━━━━━━━━\n"
-        "<i>Powered by @callmesigmax And bot dev @hiden_25 ❤️</i>"
+        "<i>Powered by @Esoftitacchub And bot dev @vxxwo ❤️</i>"
     ), InlineKeyboardMarkup(keyboard)
 
 # ====== Stats Command ======
@@ -99,7 +98,7 @@ async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"📊 <b>Bot Statistics</b>\n\n"
         f"👥 Total Users: {total_users}\n"
         f"━━━━━━━━━━━━━━━━━━━━━━\n"
-        "<i>Powered by @callmesigmax And bot dev @hiden_25 ❤️</i>",
+        "<i>Powered by @Esoftitacchub And bot dev @vxxwo ❤️</i>",
         parse_mode="HTML"
     )
 # ====== acchubb.py ka OTP monitor ========
@@ -176,7 +175,7 @@ def otp_monitor_acchubb():
                 f"🌍 <b>Country:</b> <b>{otp_entry.get('country_name')}</b>\n\n"
                 f"🔑 <b>OTP:</b> <blockquote>{html.escape(otp_code)}</blockquote>\n"
                 "━━━━━━━━━━━━━━━━━━━━━━\n"
-                "⚡️ <i>Powered by @callmesigmax Bot dev @hiden_25 🔱</i>\n"
+                "⚡️ <i>Powered by @Esoftitacchub Bot dev @vxxwo 🔱</i>\n"
                 "━━━━━━━━━━━━━━━━━━━━━━"
             )
             send_telegram_message(msg)
@@ -194,7 +193,7 @@ def otp_monitor_acchubb():
                     f"🌍 <b>Country:</b> <b>{otp_entry.get('country_name')}</b>\n\n"
                     f"🔑 <b>OTP:</b> <blockquote>{html.escape(otp_code)}</blockquote>\n"
                     "━━━━━━━━━━━━━━━━━━━━━━\n"
-                    "⚡️ <i>Powered by @callmesigmax Bot Dev @hiden_25 ❤️</i>\n"
+                    "⚡️ <i>Powered by @Esoftitacchub Bot Dev @vxxwo ❤️</i>\n"
                     "━━━━━━━━━━━━━━━━━━━━━━"
                 )
                 send_telegram_message(msg)
@@ -363,12 +362,12 @@ async def send_number_message(query, data, country_id, carrier_id, changed=False
     msg = (
         ("🔄 <b>Number Changed!</b>\n\n" if changed else "✅ <b>Number Added Successfully!</b>\n\n") +
         f"📞 <b>Number:</b> <code>{data.get('did')}</code>\n"
-        f"<i>Developed by @callmesigmax Bot Dev @hiden_25 ❤️</i>"
+        f"<i>Developed by @Esoftitacchub Bot Dev @vxxwo ❤️</i>"
     )
     keyboard = [
         [
-            InlineKeyboardButton("📩 View OTP", url="https://t.me/SigmaXDiscus"),
-            InlineKeyboardButton("📢 Main Channel", url="https://t.me/HunterXSigma")
+            InlineKeyboardButton("📩 View OTP", url="https://t.me/Acchubotp"),
+            InlineKeyboardButton("📢 Main Channel", url="https://t.me/esoftitacchubio")
         ],
         [
             InlineKeyboardButton("🔄 Change Number", callback_data="change_number")
@@ -392,7 +391,7 @@ async def hiden_25(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "📢 <b>Broadcast Message</b>\n\n"
         f"{html.escape(broadcast_message)}\n\n"
         "━━━━━━━━━━━━━━━━━━━━━━\n"
-        "<i>Powered by @callmesigmax Bot dev @hiden_25 ❤️</i>"
+        "<i>Powered by @Esoftitacchub Bot dev @vxxwo ❤️</i>"
     )
     sent_count = 0
     failed_count = 0
