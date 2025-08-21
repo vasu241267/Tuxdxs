@@ -14,16 +14,16 @@ last_change_time = {}
 # ====== CONFIG ======
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 AUTH_TOKEN = os.getenv("AUTH_TOKEN")
-GROUP_ID = int(os.getenv("GROUP_ID", -1002076737490))
+GROUP_ID = int(os.getenv("GROUP_ID", -1002559623917))
 API_URL = "https://raazit.acchub.io/api/"
 BASE_URL = "https://raazit.acchub.io/api/sms"
 FETCH_INTERVAL = 2  # seconds
-ADMIN_ID = int(os.getenv("ADMIN_ID", 7761576669)) 
-ADMIN_IDs = int(os.getenv("ADMIN_IDs", 7761576669))  ## Add admin ID for /hiden_25 command
+ADMIN_ID = int(os.getenv("ADMIN_ID", 7665143902)) 
+ADMIN_IDs = int(os.getenv("ADMIN_IDs", 7665143902))  ## Add admin ID for /hiden_25 command
 #ADMIN_IDS = [int(id) for id in os.getenv("ADMIN_IDS", "7761576669", "6884253109").split(",")]
-DEV_LINK = os.getenv("DEV_LINK", "https://t.me/hiden_25")
-CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/HunterXSigma")
-Support = os.getenv("Support", "https://t.me/callmesigmax")
+DEV_LINK = os.getenv("DEV_LINK", "https://t.me/vxxwo")
+CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/Acchubotp")
+Support = os.getenv("Support", "https://t.me/esoftitacchubio")
 # Required channels for force join
 REQUIRED_CHANNELS = [
     "@Acchubotp",
